@@ -8,3 +8,9 @@ Programa desenvolvido por:
  - Aluno 3
  - Aluno 4
 */
+
+function minutesToSeconds(numero) {
+
+    return numero * 60
+}
+console.log(minutesToSeconds(57))

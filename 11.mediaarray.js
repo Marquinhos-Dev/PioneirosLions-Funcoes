@@ -12,3 +12,11 @@ Programa desenvolvido por:
  - Aluno 3
  - Aluno 4
 */
+
+function averageArray(arrayRecebido){
+
+    return arrayRecebido.reduce((x,y)=> x + y) / arrayRecebido.length
+}
+
+// Testando o array
+console.log(averageArray([1,2,3,4]))

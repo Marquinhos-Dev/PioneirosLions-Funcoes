@@ -13,3 +13,10 @@ Programa desenvolvido por:
  - Aluno 3
  - Aluno 4
 */
+
+function reverseString (string) {
+
+    return string.split('').reverse().join()
+}
+
+console.log(reverseString('word'))

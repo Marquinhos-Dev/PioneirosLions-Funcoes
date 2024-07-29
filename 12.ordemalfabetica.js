@@ -12,3 +12,13 @@ Programa desenvolvido por:
  - Aluno 3
  - Aluno 4
 */
+
+function alphabeticalOrder(caracterRecebida){
+
+    let caracteresEmOrdem = caracterRecebida.split('').sort().join('')
+
+    return caracteresEmOrdem
+}
+
+// Testando a função
+console.log(alphabeticalOrder(''))

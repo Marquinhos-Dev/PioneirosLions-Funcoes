@@ -8,3 +8,16 @@ Programa desenvolvido por:
  - Aluno 3
  - Aluno 4
 */
+
+function findMax (arrayDeNumeros) {
+    let maiorNumero = [0]
+    arrayDeNumeros.forEach(numero => {
+        if (numero > maiorNumero)
+            maiorNumero = numero
+    })
+    return maiorNumero
+}
+
+// testeTrabalhoPioneirosDaLions
+
+console.log(findMax([2, 3, 5, 6, 7, 8, 6, 5 ,9 , 4]))

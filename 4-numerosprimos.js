@@ -13,3 +13,17 @@ Programa desenvolvido por:
  - Aluno 3
  - Aluno 4
 */
+
+function isPrime(numeroRecebido){
+
+    let divisor = 2
+
+    while(numeroRecebido % divisor != 0){
+
+    divisor++ }
+
+    return (divisor == numeroRecebido)
+}
+
+// Testando a função
+console.log(isPrime(15))

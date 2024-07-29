@@ -13,3 +13,11 @@ Programa desenvolvido por:
  - Aluno 3
  - Aluno 4
 */
+
+function getOddNumbers(numbers) {
+    return numbers.filter(number => number % 2  !== 0)
+    }
+    
+    const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    const oddNumbers = getOddNumbers(numbers);
+    console.log(oddNumbers)

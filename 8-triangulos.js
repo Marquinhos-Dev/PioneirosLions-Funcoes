@@ -13,3 +13,12 @@ Programa desenvolvido por:
  - Aluno 3
  - Aluno 4
 */
+
+function drawTriangle(m) {
+    for (let i = 0; i <= m; i ++) {
+        console.log("*".repeat(i))
+    }    
+    }
+    drawTriangle(5)
+    drawTriangle(3)
+    drawTriangle(15)

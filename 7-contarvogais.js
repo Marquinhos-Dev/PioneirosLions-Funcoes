@@ -15,3 +15,22 @@ Programa desenvolvido por:
  - Aluno 3
  - Aluno 4
 */
+
+function countVowels(palavra){
+
+    palavra = palavra.normalize('NFD').replace(/[\u0300-\u036f]/g, "").toLowerCase()
+
+    let vogais = 'aeiou'
+    let quantidadeDeVogais = 0
+    
+    for (let i = 0; i < palavra.length; i++){
+
+        if (vogais.includes(palavra[i])) {
+            quantidadeDeVogais++
+        }
+    }
+    return quantidadeDeVogais
+}
+
+// Testando a função
+console.log(countVowels('joão'))

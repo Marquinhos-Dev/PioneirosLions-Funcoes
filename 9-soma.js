@@ -8,3 +8,10 @@ Programa desenvolvido por:
  - Aluno 3
  - Aluno 4
 */
+
+function sumTwoNumbers(numero1,numero2){
+    return numero1 + numero2
+}
+
+// Testando a função
+console.log(sumTwoNumbers(3,4))

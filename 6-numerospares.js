@@ -13,3 +13,11 @@ Programa desenvolvido por:
  - Aluno 3
  - Aluno 4
 */
+
+function getEvenNumbers(numbers) {
+    return numbers.filter(number => number % 2  == 0)
+    }
+    
+    const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    const EvenNumbers = getEvenNumbers(numbers);
+    console.log(EvenNumbers)
