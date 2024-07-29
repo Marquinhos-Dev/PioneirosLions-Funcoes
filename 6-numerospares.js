@@ -8,10 +8,10 @@ Tente utilizar o método filter para criar um novo array contendo apenas os
 números que atendem a essa condição.
 
 Programa desenvolvido por:
- - Aluno 1
- - Aluno 2
- - Aluno 3
- - Aluno 4
+ - Eduardo Raimundo
+ - Marcos
+ - Pedro
+ - Thais
 */
 
 function getEvenNumbers(numbers) {

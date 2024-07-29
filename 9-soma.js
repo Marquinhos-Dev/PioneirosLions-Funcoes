@@ -3,10 +3,10 @@ Crie uma função chamada sumTwoNumbers que aceite dois números como parâmetro
 a soma deles.
 
 Programa desenvolvido por:
- - Aluno 1
- - Aluno 2
- - Aluno 3
- - Aluno 4
+ - Eduardo Raimundo
+ - Marcos
+ - Pedro
+ - Thais
 */
 
 function sumTwoNumbers(numero1,numero2){
